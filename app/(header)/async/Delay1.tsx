@@ -1,0 +1,10 @@
+import { delay } from '@/utils'
+
+export default async function Delay1() {
+  await delay(3_000)
+  return (
+    <>
+      <h1>Delay 1 (3초)</h1>
+    </>
+  )
+}
